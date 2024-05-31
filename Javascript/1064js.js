@@ -1,3 +1,6 @@
+let totalPositivos = 0;
+let somaPositivos = 0;
+
 for (let i = 0; i < 6; i++) {
     let valor = parseFloat(lines[i]);
     if (valor > 0) {
